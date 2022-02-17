@@ -2,8 +2,8 @@
         include ("include/iM.class.php");
         $iM=new iMSuperClass();
         $host="localhost";
-        $user="root";
-        $passWd="gr5j4c0";
+        $user="LOGIN";
+        $passWd="SENHA";
         $bd="apuracao";
         $conexao=$iM->im_dbconnect($host,$user,$passWd,$bd);
 
