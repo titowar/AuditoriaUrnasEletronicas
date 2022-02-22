@@ -3,8 +3,8 @@
 include ("../include/iM.class.php");
 $iM=new iMSuperClass();
 $host="localhost";
-$user="root";
-$passWd="";
+$user="USER";
+$passWd="PASSWORD";
 $bd="apuracao";
 $conexao=$iM->im_dbconnect($host,$user,$passWd,$bd);
 include ("include/action.php");
